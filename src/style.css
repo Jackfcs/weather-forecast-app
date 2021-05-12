@@ -1,0 +1,135 @@
+body {
+  padding: 12px;
+  background-color: rgb(30, 18, 194);
+  color: white;
+  font-family: verdana, "Franklin Gothic Medium", sans-serif;
+}
+
+#top-bar {
+  display: flex;
+  flex-direction: row;
+}
+#form {
+  display: flex;
+  flex-direction: row;
+  min-width: 400px;
+}
+
+#top-right {
+  display: flex;
+  justify-content: end;
+  width: 500px;
+  justify-content: end;
+  align-items: center;
+}
+
+#units-btn {
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: 80px;
+    background-color: #2196f3;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+#search-text {
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  border: none;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+#search {
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-left: none;
+  cursor: pointer;
+}
+
+#today-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+#left {
+  display: grid;
+  grid-template-areas:
+    "icon temp feels-like"
+    "icon temp humidity"
+    "icon temp wind-speed";
+  min-width: 400px;
+}
+
+#icon {
+  grid-area: icon;
+  justify-self: center;
+  align-self: center;
+}
+
+#today-temp {
+  grid-area: temp;
+  font-size: 70px;
+  justify-self: left;
+  align-self: center;
+  padding-right: 15px;
+  border-right: 1px solid white;
+  margin-right: 5px;
+}
+
+.smaller {
+  font-size: 25px;
+  position: relative;
+  bottom: 32px;
+}
+
+#feels-like {
+  grid-area: feels-like;
+  justify-self: left;
+  align-self: center;
+}
+
+#humidity {
+  grid-area: humidity;
+  justify-self: left;
+  align-self: center;
+}
+
+#wind-speed {
+  grid-area: wind-speed;
+  justify-self: left;
+  align-self: center;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  padding-bottom: 5px;
+  min-width: 500px;
+}
+
+#place-name {
+  font-size: 45px;
+}
+
+#description {
+  font-size: 25px;
+}
+
+#time {
+    font-size: 15px;
+}
+
