@@ -1,6 +1,6 @@
 body {
   padding: 12px;
-  background-color: rgb(30, 18, 194);
+  background-color: rgb(9, 97, 197);
   color: white;
   font-family: verdana, "Franklin Gothic Medium", sans-serif;
 }
@@ -8,6 +8,7 @@ body {
 #top-bar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 #form {
   display: flex;
@@ -19,23 +20,20 @@ body {
   display: flex;
   justify-content: end;
   width: 500px;
-  justify-content: end;
   align-items: center;
 }
 
 #units-btn {
-    border: none;
-    border-radius: 5px;
-    height: 2rem;
-    width: 80px;
-    background-color: #2196f3;
-    color: white;
-    font-size: 15px;
-    cursor: pointer;
-    text-align: center;
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  width: 80px;
+  background-color: #2196f3;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
 }
-
-
 
 #search-text {
   padding: 10px;
@@ -61,6 +59,7 @@ body {
   display: flex;
   flex-direction: row;
   padding-top: 20px;
+  justify-content: space-between;
 }
 
 #left {
@@ -118,7 +117,8 @@ body {
   justify-content: end;
   align-items: flex-end;
   padding-bottom: 5px;
-  min-width: 500px;
+  width: 500px;
+  min-width: 300px;
 }
 
 #place-name {
@@ -130,6 +130,60 @@ body {
 }
 
 #time {
-    font-size: 15px;
+  font-size: 15px;
 }
 
+#forecast {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-top: 50px;
+  overflow: auto;
+}
+
+#div-instance {
+ min-width: 150px;
+ align-items: center;
+ border-right: solid white 1px;
+ border-top: solid white 1px;
+ text-align: center;
+ width: 90vw;
+ padding: 20px;
+}
+
+#dateF {
+  font-weight: bold;
+}
+
+#timeF {
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  body {
+      max-width: 600px;
+    background-color: rgb(9, 63, 126);
+  }
+
+  #today-container {
+    flex-direction: column-reverse;
+  }
+  #left {
+    max-width: 400px;
+  }
+  #right {
+    align-items: flex-start;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  #form {
+    max-width: 100px;
+  }
+  #top-right {
+      justify-content: center;
+  }
+  #top-bar {
+    display: flex;
+  }
+}

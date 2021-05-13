@@ -314,7 +314,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  padding: 12px;\n  background-color: rgb(30, 18, 194);\n  color: white;\n  font-family: verdana, \"Franklin Gothic Medium\", sans-serif;\n}\n\n#top-bar {\n  display: flex;\n  flex-direction: row;\n}\n#form {\n  display: flex;\n  flex-direction: row;\n  min-width: 400px;\n}\n\n#top-right {\n  display: flex;\n  justify-content: end;\n  width: 500px;\n  justify-content: end;\n  align-items: center;\n}\n\n#units-btn {\n    border: none;\n    border-radius: 5px;\n    height: 2rem;\n    width: 80px;\n    background-color: #2196f3;\n    color: white;\n    font-size: 15px;\n    cursor: pointer;\n    text-align: center;\n}\n\n\n\n#search-text {\n  padding: 10px;\n  font-size: 17px;\n  float: left;\n  border: none;\n  width: 80%;\n  background: #f1f1f1;\n}\n\n#search {\n  width: 20%;\n  padding: 10px;\n  background: #2196f3;\n  color: white;\n  font-size: 17px;\n  border: none;\n  border-left: none;\n  cursor: pointer;\n}\n\n#today-container {\n  display: flex;\n  flex-direction: row;\n  padding-top: 20px;\n}\n\n#left {\n  display: grid;\n  grid-template-areas:\n    \"icon temp feels-like\"\n    \"icon temp humidity\"\n    \"icon temp wind-speed\";\n  min-width: 400px;\n}\n\n#icon {\n  grid-area: icon;\n  justify-self: center;\n  align-self: center;\n}\n\n#today-temp {\n  grid-area: temp;\n  font-size: 70px;\n  justify-self: left;\n  align-self: center;\n  padding-right: 15px;\n  border-right: 1px solid white;\n  margin-right: 5px;\n}\n\n.smaller {\n  font-size: 25px;\n  position: relative;\n  bottom: 32px;\n}\n\n#feels-like {\n  grid-area: feels-like;\n  justify-self: left;\n  align-self: center;\n}\n\n#humidity {\n  grid-area: humidity;\n  justify-self: left;\n  align-self: center;\n}\n\n#wind-speed {\n  grid-area: wind-speed;\n  justify-self: left;\n  align-self: center;\n}\n\n#right {\n  display: flex;\n  flex-direction: column;\n  justify-content: end;\n  align-items: flex-end;\n  padding-bottom: 5px;\n  min-width: 500px;\n}\n\n#place-name {\n  font-size: 45px;\n}\n\n#description {\n  font-size: 25px;\n}\n\n#time {\n    font-size: 15px;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  padding: 12px;\n  background-color: rgb(9, 97, 197);\n  color: white;\n  font-family: verdana, \"Franklin Gothic Medium\", sans-serif;\n}\n\n#top-bar {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n#form {\n  display: flex;\n  flex-direction: row;\n  min-width: 400px;\n}\n\n#top-right {\n  display: flex;\n  justify-content: end;\n  width: 500px;\n  align-items: center;\n}\n\n#units-btn {\n  border: none;\n  border-radius: 5px;\n  height: 2rem;\n  width: 80px;\n  background-color: #2196f3;\n  color: white;\n  font-size: 15px;\n  cursor: pointer;\n  text-align: center;\n}\n\n#search-text {\n  padding: 10px;\n  font-size: 17px;\n  float: left;\n  border: none;\n  width: 80%;\n  background: #f1f1f1;\n}\n\n#search {\n  width: 20%;\n  padding: 10px;\n  background: #2196f3;\n  color: white;\n  font-size: 17px;\n  border: none;\n  border-left: none;\n  cursor: pointer;\n}\n\n#today-container {\n  display: flex;\n  flex-direction: row;\n  padding-top: 20px;\n  justify-content: space-between;\n}\n\n#left {\n  display: grid;\n  grid-template-areas:\n    \"icon temp feels-like\"\n    \"icon temp humidity\"\n    \"icon temp wind-speed\";\n  min-width: 400px;\n}\n\n#icon {\n  grid-area: icon;\n  justify-self: center;\n  align-self: center;\n}\n\n#today-temp {\n  grid-area: temp;\n  font-size: 70px;\n  justify-self: left;\n  align-self: center;\n  padding-right: 15px;\n  border-right: 1px solid white;\n  margin-right: 5px;\n}\n\n.smaller {\n  font-size: 25px;\n  position: relative;\n  bottom: 32px;\n}\n\n#feels-like {\n  grid-area: feels-like;\n  justify-self: left;\n  align-self: center;\n}\n\n#humidity {\n  grid-area: humidity;\n  justify-self: left;\n  align-self: center;\n}\n\n#wind-speed {\n  grid-area: wind-speed;\n  justify-self: left;\n  align-self: center;\n}\n\n#right {\n  display: flex;\n  flex-direction: column;\n  justify-content: end;\n  align-items: flex-end;\n  padding-bottom: 5px;\n  width: 500px;\n  min-width: 300px;\n}\n\n#place-name {\n  font-size: 45px;\n}\n\n#description {\n  font-size: 25px;\n}\n\n#time {\n  font-size: 15px;\n}\n\n#forecast {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: nowrap;\n  padding-top: 50px;\n  overflow: auto;\n}\n\n#div-instance {\n min-width: 150px;\n align-items: center;\n border-right: solid white 1px;\n border-top: solid white 1px;\n text-align: center;\n width: 90vw;\n padding: 20px;\n}\n\n#dateF {\n  font-weight: bold;\n}\n\n#timeF {\n  font-weight: bold;\n}\n\n@media (max-width: 800px) {\n  body {\n      max-width: 600px;\n    background-color: rgb(9, 63, 126);\n  }\n\n  #today-container {\n    flex-direction: column-reverse;\n  }\n  #left {\n    max-width: 400px;\n  }\n  #right {\n    align-items: flex-start;\n    padding-bottom: 30px;\n    padding-top: 30px;\n    padding-left: 30px;\n  }\n  #form {\n    max-width: 100px;\n  }\n  #top-right {\n      justify-content: center;\n  }\n  #top-bar {\n    display: flex;\n  }\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -401,8 +401,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _getdata_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
 
 
+
 const domDisplay = (function () {
+
+  const searchInput = document.getElementById("search-text");
+  const unitsBtn = document.getElementById("units-btn");
+
+
+
+  function newForecastInstance(date, time, temp, icon, description) {
+    let contents;
+    
+    contents = `
+<div id="dateF">${date}</div>
+<div id="timeF">${time}</div>
+<div id="tempF">${temp}</div>
+<img id="iconF" src="http://openweathermap.org/img/wn/${icon}@2x.png"></img>
+<div id="descriptionF">${description}</div>`;
+
+    return contents;
+  }
+
   
+  return {
+    newForecastInstance,
+  };
 })();
 
 
@@ -414,7 +437,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getData": () => (/* binding */ getData)
 /* harmony export */ });
-/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var date_fns_isToday__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(40);
+/* harmony import */ var date_fns_isTomorrow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(43);
+/* harmony import */ var _domdisplay_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5);
+
+
+
 
 
 const getData = (function () {
@@ -427,10 +456,9 @@ const getData = (function () {
   const description = document.getElementById("description");
   const unitsBtn = document.getElementById("units-btn");
   const time = document.getElementById("time");
+  const forecastContainer = document.getElementById("forecast");
 
-  requestData("London");
-
-  async function requestData(location, units = "Metric") {
+  async function requestData(location = "London", units = "Metric") {
     try {
       const response = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${units}&APPID=e3e5263895dd9c374cba7662f5f1dae3`,
@@ -445,7 +473,7 @@ const getData = (function () {
         "http://openweathermap.org/img/wn/" +
         weatherData.weather[0].icon +
         "@2x.png";
-        time.textContent = (0,date_fns__WEBPACK_IMPORTED_MODULE_0__.default)(new Date(), 'haaa EEEE, do MMMM')
+      time.textContent = (0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(new Date(), "haaa EEEE, do MMMM");
       if (units == "Metric") {
         todayTemp.innerHTML =
           Math.round(weatherData.main.temp) +
@@ -456,7 +484,6 @@ const getData = (function () {
 
         windSpeed.textContent =
           "Wind-Speed: " + Math.round(weatherData.wind.speed) + "mph";
-        
       } else {
         todayTemp.innerHTML =
           Math.round(weatherData.main.temp) +
@@ -469,37 +496,70 @@ const getData = (function () {
           "Wind-Speed: " + Math.round(weatherData.wind.speed) + "kph";
       }
 
-      console.log(weatherData);
       return weatherData;
     } catch (err) {
-      alert("Enter a valid town, city or country");
+      //alert("Enter a valid town, city or country");
     }
   }
-console.log((0,date_fns__WEBPACK_IMPORTED_MODULE_0__.default)(new Date(), 'haaa EEEE, do MMMM'))
+
+  //5 DAY THREE HOUR FORECAST
+
+  async function requestFuture(location = "London", units = "Metric") {
+    const response = await fetch(
+      `https://api.openweathermap.org/data/2.5/forecast?q=${location}&units=${units}&appid=e3e5263895dd9c374cba7662f5f1dae3`,
+      { mode: "cors" }
+    );
+
+    const weatherData = await response.json();
+
+    forecastContainer.innerHTML = "";
+    for (let i = 0; i < weatherData.list.length; i++) {
+      const divInstance = document.createElement("div");
+      divInstance.setAttribute("id", "div-instance");
+      forecastContainer.appendChild(divInstance);
+      let date;
+      let time;
+      if ((0,date_fns_isToday__WEBPACK_IMPORTED_MODULE_2__.default)(new Date(weatherData.list[i].dt_txt))) {
+        date = "Today"
+        time = (0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(new Date(weatherData.list[i].dt_txt), "haaa")
+      } else if ((0,date_fns_isTomorrow__WEBPACK_IMPORTED_MODULE_3__.default)(new Date(weatherData.list[i].dt_txt))){
+        date = "Tomorrow"
+        time = (0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(new Date(weatherData.list[i].dt_txt), "haaa")
+      } else {
+        date = (0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(new Date(weatherData.list[i].dt_txt), "do MMMM");
+        time = (0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(new Date(weatherData.list[i].dt_txt), "haaa EEEE");
+      }
+      let icon = weatherData.list[i].weather[0].icon;
+      let description = weatherData.list[i].weather[0].description;
+      let temp;
+      if (units == "Metric") {
+        temp = `${Math.round(
+          weatherData.list[i].main.feels_like
+        )}<span class='smallerF'>&#8451</span>`;
+      } else {
+        temp = `${Math.round(
+          weatherData.list[i].main.feels_like
+        )}<span class='smallerF'>&#8457</span>`;
+      }
+      divInstance.innerHTML = _domdisplay_js__WEBPACK_IMPORTED_MODULE_0__.domDisplay.newForecastInstance(
+        date,
+        time,
+        temp,
+        icon,
+        getData.capitalise(description)
+      );
+    }
+    
+  }
+
   function capitalise(string) {
     return string[0].toUpperCase() + string.slice(1).toLowerCase();
   }
-  //console.log(requestData());
-
-  //   //5 DAY THREE HOUR FORECAST
-  //   function requestData2() {
-  //     fetch(
-  //       `https://api.openweathermap.org/data/2.5/forecast?q=london&appid=e3e5263895dd9c374cba7662f5f1dae3`,
-  //       { mode: "cors" }
-  //     )
-  //       .then(function (response) {
-  //         return response.json();
-  //       })
-  //       .then(function (response) {
-  //         console.log(response);
-  //         return response;
-  //       });
-  //   }
-
-  //requestData2();
 
   return {
     requestData,
+    requestFuture,
+    capitalise,
   };
 })();
 
@@ -3284,31 +3344,261 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "domEvents": () => (/* binding */ domEvents)
 /* harmony export */ });
 /* harmony import */ var _getdata_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+/* harmony import */ var _domdisplay__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+
 
 
 const domEvents = (function () {
-    const searchInput = document.getElementById("search-text");
-    const searchBtn = document.getElementById("search");
-    const unitsBtn = document.getElementById("units-btn");
-    
-  
-    searchBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData(searchInput.value, unitsBtn.textContent);
-    });
-  
-    unitsBtn.addEventListener("click", () => {
-      if (unitsBtn.textContent == "Metric") {
-        unitsBtn.textContent = "Imperial";
-      } else {
-        unitsBtn.textContent = "Metric";
-      }
-      _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData(searchInput.value, unitsBtn.textContent);
-    });
-    
- 
+  const searchBtn = document.getElementById("search");
+  const searchInput = document.getElementById("search-text");
+  const unitsBtn = document.getElementById("units-btn");
 
+  searchBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData(searchInput.value, unitsBtn.textContent);
+  });
+
+  unitsBtn.addEventListener("click", () => {
+    if (unitsBtn.textContent == "Metric") {
+      unitsBtn.textContent = "Imperial";
+    } else {
+      unitsBtn.textContent = "Metric";
+    }
+    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData(searchInput.value, unitsBtn.textContent);
+    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestFuture(searchInput.value, unitsBtn.textContent);
+  });
+
+  _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestFuture()
+  _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData();
 })();
+
+
+/***/ }),
+/* 40 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ isToday)
+/* harmony export */ });
+/* harmony import */ var _isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(41);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
+
+
+/**
+ * @name isToday
+ * @category Day Helpers
+ * @summary Is the given date today?
+ * @pure false
+ *
+ * @description
+ * Is the given date today?
+ *
+ * > ⚠️ Please note that this function is not present in the FP submodule as
+ * > it uses `Date.now()` internally hence impure and can't be safely curried.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the date to check
+ * @returns {Boolean} the date is today
+ * @throws {TypeError} 1 argument required
+ *
+ * @example
+ * // If today is 6 October 2014, is 6 October 14:00:00 today?
+ * var result = isToday(new Date(2014, 9, 6, 14, 0))
+ * //=> true
+ */
+
+function isToday(dirtyDate) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  return (0,_isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDate, Date.now());
+}
+
+/***/ }),
+/* 41 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ isSameDay)
+/* harmony export */ });
+/* harmony import */ var _startOfDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(42);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
+
+
+/**
+ * @name isSameDay
+ * @category Day Helpers
+ * @summary Are the given dates in the same day?
+ *
+ * @description
+ * Are the given dates in the same day?
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} dateLeft - the first date to check
+ * @param {Date|Number} dateRight - the second date to check
+ * @returns {Boolean} the dates are in the same day
+ * @throws {TypeError} 2 arguments required
+ *
+ * @example
+ * // Are 4 September 06:00:00 and 4 September 18:00:00 in the same day?
+ * var result = isSameDay(new Date(2014, 8, 4, 6, 0), new Date(2014, 8, 4, 18, 0))
+ * //=> true
+ */
+
+function isSameDay(dirtyDateLeft, dirtyDateRight) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(2, arguments);
+  var dateLeftStartOfDay = (0,_startOfDay_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateLeft);
+  var dateRightStartOfDay = (0,_startOfDay_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateRight);
+  return dateLeftStartOfDay.getTime() === dateRightStartOfDay.getTime();
+}
+
+/***/ }),
+/* 42 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ startOfDay)
+/* harmony export */ });
+/* harmony import */ var _toDate_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
+
+
+/**
+ * @name startOfDay
+ * @category Day Helpers
+ * @summary Return the start of a day for the given date.
+ *
+ * @description
+ * Return the start of a day for the given date.
+ * The result will be in the local timezone.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the original date
+ * @returns {Date} the start of a day
+ * @throws {TypeError} 1 argument required
+ *
+ * @example
+ * // The start of a day for 2 September 2014 11:55:00:
+ * const result = startOfDay(new Date(2014, 8, 2, 11, 55, 0))
+ * //=> Tue Sep 02 2014 00:00:00
+ */
+
+function startOfDay(dirtyDate) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  var date = (0,_toDate_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDate);
+  date.setHours(0, 0, 0, 0);
+  return date;
+}
+
+/***/ }),
+/* 43 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ isTomorrow)
+/* harmony export */ });
+/* harmony import */ var _addDays_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(44);
+/* harmony import */ var _isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(41);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
+
+
+
+/**
+ * @name isTomorrow
+ * @category Day Helpers
+ * @summary Is the given date tomorrow?
+ * @pure false
+ *
+ * @description
+ * Is the given date tomorrow?
+ *
+ * > ⚠️ Please note that this function is not present in the FP submodule as
+ * > it uses `Date.now()` internally hence impure and can't be safely curried.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the date to check
+ * @returns {Boolean} the date is tomorrow
+ * @throws {TypeError} 1 argument required
+ *
+ * @example
+ * // If today is 6 October 2014, is 7 October 14:00:00 tomorrow?
+ * var result = isTomorrow(new Date(2014, 9, 7, 14, 0))
+ * //=> true
+ */
+
+function isTomorrow(dirtyDate) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  return (0,_isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDate, (0,_addDays_index_js__WEBPACK_IMPORTED_MODULE_2__.default)(Date.now(), 1));
+}
+
+/***/ }),
+/* 44 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ addDays)
+/* harmony export */ });
+/* harmony import */ var _lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(19);
+/* harmony import */ var _toDate_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
+
+
+
+/**
+ * @name addDays
+ * @category Day Helpers
+ * @summary Add the specified number of days to the given date.
+ *
+ * @description
+ * Add the specified number of days to the given date.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the date to be changed
+ * @param {Number} amount - the amount of days to be added. Positive decimals will be rounded using `Math.floor`, decimals less than zero will be rounded using `Math.ceil`.
+ * @returns {Date} - the new date with the days added
+ * @throws {TypeError} - 2 arguments required
+ *
+ * @example
+ * // Add 10 days to 1 September 2014:
+ * const result = addDays(new Date(2014, 8, 1), 10)
+ * //=> Thu Sep 11 2014 00:00:00
+ */
+
+function addDays(dirtyDate, dirtyAmount) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(2, arguments);
+  var date = (0,_toDate_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDate);
+  var amount = (0,_lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_2__.default)(dirtyAmount);
+
+  if (isNaN(amount)) {
+    return new Date(NaN);
+  }
+
+  if (!amount) {
+    // If 0 days, no-op to avoid changing times in the hour before end of DST
+    return date;
+  }
+
+  date.setDate(date.getDate() + amount);
+  return date;
+}
 
 /***/ })
 /******/ 	]);
