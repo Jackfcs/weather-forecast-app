@@ -187,7 +187,7 @@ body {
     width: 100%;
     position: fixed;
     align-self: center;
-    height: 45%;
+    height: 50%;
     background-color: rgb(9, 97, 197);
     z-index: 1;
     top: 0px;
@@ -216,9 +216,12 @@ body {
   }
   #right {
     align-items: center;
+    position: relative;
+    bottom: 50px;
+    border-bottom: white solid 1px;
+    width: 100%;
     padding-bottom: 30px;
-    padding-top: 30px;
-    padding-left: 30px;
+    background-color: rgb(9, 97, 197);
   }
   
   #top-right {
@@ -230,7 +233,7 @@ body {
   #forecast {
     flex-direction: column;
     position: relative;
-    top: 500px;
+    top: 390px;
     z-index: 0;
   } 
 
