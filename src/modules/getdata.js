@@ -30,7 +30,7 @@ export const getData = (function () {
       icon.src =
         "http://openweathermap.org/img/wn/" +
         weatherData.weather[0].icon +
-        "@2x.png";
+        "@4x.png";
       time.textContent = format(new Date(), "haaa EEEE, do MMMM");
       if (units == "Metric") {
         todayTemp.innerHTML =
