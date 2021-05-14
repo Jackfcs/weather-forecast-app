@@ -1,8 +1,11 @@
 body {
-  padding: 12px;
   background-color: rgb(9, 97, 197);
   color: white;
   font-family: verdana, "Franklin Gothic Medium", sans-serif;
+}
+
+#top {
+  padding: 10px;
 }
 
 #top-bar {
@@ -58,7 +61,7 @@ body {
 #today-container {
   display: flex;
   flex-direction: row;
-  padding-top: 20px;
+  padding-top: 40px;
   justify-content: space-between;
 }
 
@@ -149,6 +152,7 @@ body {
  text-align: center;
  width: 90vw;
  padding: 20px;
+ justify-content: space-evenly;
 }
 
 #dateF {
@@ -158,32 +162,70 @@ body {
 #timeF {
   font-weight: bold;
 }
+#tempF {
+  font-weight: bold;
+}
 
 @media (max-width: 800px) {
+  
+
   body {
-      max-width: 600px;
-    background-color: rgb(9, 63, 126);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 97, 197);
+    
+  }
+
+  #top {
+    width: 100%;
+    position: fixed;
+    align-self: center;
+    height: 45%;
+    background-color: rgb(9, 97, 197);
+    z-index: 1;
+    top: 0px;
+  }
+
+  #top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
   }
 
   #today-container {
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
+
+  #div-instance {
+    border-right: none;
+  }
+
   #left {
     max-width: 400px;
   }
   #right {
-    align-items: flex-start;
+    align-items: center;
     padding-bottom: 30px;
     padding-top: 30px;
     padding-left: 30px;
   }
-  #form {
-    max-width: 100px;
-  }
+  
   #top-right {
-      justify-content: center;
   }
+
   #top-bar {
-    display: flex;
   }
+
+  #forecast {
+    flex-direction: column;
+    position: relative;
+    top: 500px;
+    z-index: 0;
+  } 
+
+  
 }

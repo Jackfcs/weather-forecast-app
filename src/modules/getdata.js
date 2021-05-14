@@ -15,6 +15,7 @@ export const getData = (function () {
   const time = document.getElementById("time");
   const forecastContainer = document.getElementById("forecast");
 
+  // Get forecast for now
   async function requestData(location = "London", units = "Metric") {
     try {
       const response = await fetch(
@@ -55,14 +56,14 @@ export const getData = (function () {
 
       return weatherData;
     } catch (err) {
-      //alert("Enter a valid town, city or country");
+      alert('Select valid town, city or country')
     }
   }
 
-  //5 DAY THREE HOUR FORECAST
+  //Get forecast for next 5 days
 
   async function requestFuture(location = "London", units = "Metric") {
-    const response = await fetch(
+    try {const response = await fetch(
       `https://api.openweathermap.org/data/2.5/forecast?q=${location}&units=${units}&appid=e3e5263895dd9c374cba7662f5f1dae3`,
       { mode: "cors" }
     );
@@ -70,6 +71,7 @@ export const getData = (function () {
     const weatherData = await response.json();
 
     forecastContainer.innerHTML = "";
+
     for (let i = 0; i < weatherData.list.length; i++) {
       const divInstance = document.createElement("div");
       divInstance.setAttribute("id", "div-instance");
@@ -89,11 +91,11 @@ export const getData = (function () {
       let icon = weatherData.list[i].weather[0].icon;
       let description = weatherData.list[i].weather[0].description;
       let temp;
-      if (units == "Metric") {
+      if (unitsBtn.textContent == "Metric") {
         temp = `${Math.round(
           weatherData.list[i].main.feels_like
         )}<span class='smallerF'>&#8451</span>`;
-      } else {
+       } else {
         temp = `${Math.round(
           weatherData.list[i].main.feels_like
         )}<span class='smallerF'>&#8457</span>`;
@@ -104,7 +106,8 @@ export const getData = (function () {
         temp,
         icon,
         getData.capitalise(description)
-      );
+      );}
+    } catch {
     }
     
   }
