@@ -314,7 +314,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  padding: 12px;\n  background-color: rgb(9, 97, 197);\n  color: white;\n  font-family: verdana, \"Franklin Gothic Medium\", sans-serif;\n}\n\n#top-bar {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n#form {\n  display: flex;\n  flex-direction: row;\n  min-width: 400px;\n}\n\n#top-right {\n  display: flex;\n  justify-content: end;\n  width: 500px;\n  align-items: center;\n}\n\n#units-btn {\n  border: none;\n  border-radius: 5px;\n  height: 2rem;\n  width: 80px;\n  background-color: #2196f3;\n  color: white;\n  font-size: 15px;\n  cursor: pointer;\n  text-align: center;\n}\n\n#search-text {\n  padding: 10px;\n  font-size: 17px;\n  float: left;\n  border: none;\n  width: 80%;\n  background: #f1f1f1;\n}\n\n#search {\n  width: 20%;\n  padding: 10px;\n  background: #2196f3;\n  color: white;\n  font-size: 17px;\n  border: none;\n  border-left: none;\n  cursor: pointer;\n}\n\n#today-container {\n  display: flex;\n  flex-direction: row;\n  padding-top: 20px;\n  justify-content: space-between;\n}\n\n#left {\n  display: grid;\n  grid-template-areas:\n    \"icon temp feels-like\"\n    \"icon temp humidity\"\n    \"icon temp wind-speed\";\n  min-width: 400px;\n}\n\n#icon {\n  grid-area: icon;\n  justify-self: center;\n  align-self: center;\n}\n\n#today-temp {\n  grid-area: temp;\n  font-size: 70px;\n  justify-self: left;\n  align-self: center;\n  padding-right: 15px;\n  border-right: 1px solid white;\n  margin-right: 5px;\n}\n\n.smaller {\n  font-size: 25px;\n  position: relative;\n  bottom: 32px;\n}\n\n#feels-like {\n  grid-area: feels-like;\n  justify-self: left;\n  align-self: center;\n}\n\n#humidity {\n  grid-area: humidity;\n  justify-self: left;\n  align-self: center;\n}\n\n#wind-speed {\n  grid-area: wind-speed;\n  justify-self: left;\n  align-self: center;\n}\n\n#right {\n  display: flex;\n  flex-direction: column;\n  justify-content: end;\n  align-items: flex-end;\n  padding-bottom: 5px;\n  width: 500px;\n  min-width: 300px;\n}\n\n#place-name {\n  font-size: 45px;\n}\n\n#description {\n  font-size: 25px;\n}\n\n#time {\n  font-size: 15px;\n}\n\n#forecast {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: nowrap;\n  padding-top: 50px;\n  overflow: auto;\n}\n\n#div-instance {\n min-width: 150px;\n align-items: center;\n border-right: solid white 1px;\n border-top: solid white 1px;\n text-align: center;\n width: 90vw;\n padding: 20px;\n}\n\n#dateF {\n  font-weight: bold;\n}\n\n#timeF {\n  font-weight: bold;\n}\n\n@media (max-width: 800px) {\n  body {\n      max-width: 600px;\n    background-color: rgb(9, 63, 126);\n  }\n\n  #today-container {\n    flex-direction: column-reverse;\n  }\n  #left {\n    max-width: 400px;\n  }\n  #right {\n    align-items: flex-start;\n    padding-bottom: 30px;\n    padding-top: 30px;\n    padding-left: 30px;\n  }\n  #form {\n    max-width: 100px;\n  }\n  #top-right {\n      justify-content: center;\n  }\n  #top-bar {\n    display: flex;\n  }\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  background-color: rgb(9, 97, 197);\n  color: white;\n  font-family: verdana, \"Franklin Gothic Medium\", sans-serif;\n}\n\n#top {\n  padding: 10px;\n}\n\n#top-bar {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n#form {\n  display: flex;\n  flex-direction: row;\n  min-width: 400px;\n}\n\n#top-right {\n  display: flex;\n  justify-content: end;\n  width: 500px;\n  align-items: center;\n}\n\n#units-btn {\n  border: none;\n  border-radius: 5px;\n  height: 2rem;\n  width: 80px;\n  background-color: #2196f3;\n  color: white;\n  font-size: 15px;\n  cursor: pointer;\n  text-align: center;\n}\n\n#search-text {\n  padding: 10px;\n  font-size: 17px;\n  float: left;\n  border: none;\n  width: 80%;\n  background: #f1f1f1;\n}\n\n#search {\n  width: 20%;\n  padding: 10px;\n  background: #2196f3;\n  color: white;\n  font-size: 17px;\n  border: none;\n  border-left: none;\n  cursor: pointer;\n}\n\n#today-container {\n  display: flex;\n  flex-direction: row;\n  padding-top: 40px;\n  justify-content: space-between;\n}\n\n#left {\n  display: grid;\n  grid-template-areas:\n    \"icon temp feels-like\"\n    \"icon temp humidity\"\n    \"icon temp wind-speed\";\n  min-width: 400px;\n}\n\n#icon {\n  grid-area: icon;\n  justify-self: center;\n  align-self: center;\n}\n\n#today-temp {\n  grid-area: temp;\n  font-size: 70px;\n  justify-self: left;\n  align-self: center;\n  padding-right: 15px;\n  border-right: 1px solid white;\n  margin-right: 5px;\n}\n\n.smaller {\n  font-size: 25px;\n  position: relative;\n  bottom: 32px;\n}\n\n#feels-like {\n  grid-area: feels-like;\n  justify-self: left;\n  align-self: center;\n}\n\n#humidity {\n  grid-area: humidity;\n  justify-self: left;\n  align-self: center;\n}\n\n#wind-speed {\n  grid-area: wind-speed;\n  justify-self: left;\n  align-self: center;\n}\n\n#right {\n  display: flex;\n  flex-direction: column;\n  justify-content: end;\n  align-items: flex-end;\n  padding-bottom: 5px;\n  width: 500px;\n  min-width: 300px;\n}\n\n#place-name {\n  font-size: 45px;\n}\n\n#description {\n  font-size: 25px;\n}\n\n#time {\n  font-size: 15px;\n}\n\n#forecast {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: nowrap;\n  padding-top: 50px;\n  overflow: auto;\n}\n\n#div-instance {\n min-width: 150px;\n align-items: center;\n border-right: solid white 1px;\n border-top: solid white 1px;\n text-align: center;\n width: 90vw;\n padding: 20px;\n justify-content: space-evenly;\n}\n\n#dateF {\n  font-weight: bold;\n}\n\n#timeF {\n  font-weight: bold;\n}\n#tempF {\n  font-weight: bold;\n}\n\n@media (max-width: 800px) {\n  \n\n  body {\n    display: flex;\n    flex-direction: column;\n    background-color: rgb(9, 97, 197);\n    \n  }\n\n  #top {\n    width: 100%;\n    position: fixed;\n    align-self: center;\n    height: 45%;\n    background-color: rgb(9, 97, 197);\n    z-index: 1;\n    top: 0px;\n  }\n\n  #top-bar {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    padding: 15px;\n  }\n\n  #today-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    \n  }\n\n  #div-instance {\n    border-right: none;\n  }\n\n  #left {\n    max-width: 400px;\n  }\n  #right {\n    align-items: center;\n    padding-bottom: 30px;\n    padding-top: 30px;\n    padding-left: 30px;\n  }\n  \n  #top-right {\n  }\n\n  #top-bar {\n  }\n\n  #forecast {\n    flex-direction: column;\n    position: relative;\n    top: 500px;\n    z-index: 0;\n  } \n\n  \n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -438,8 +438,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "getData": () => (/* binding */ getData)
 /* harmony export */ });
 /* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var date_fns_isToday__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(40);
-/* harmony import */ var date_fns_isTomorrow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(43);
+/* harmony import */ var date_fns_isToday__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(39);
+/* harmony import */ var date_fns_isTomorrow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(42);
 /* harmony import */ var _domdisplay_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5);
 
 
@@ -458,6 +458,7 @@ const getData = (function () {
   const time = document.getElementById("time");
   const forecastContainer = document.getElementById("forecast");
 
+  // Get forecast for now
   async function requestData(location = "London", units = "Metric") {
     try {
       const response = await fetch(
@@ -498,14 +499,14 @@ const getData = (function () {
 
       return weatherData;
     } catch (err) {
-      //alert("Enter a valid town, city or country");
+      alert('Select valid town, city or country')
     }
   }
 
-  //5 DAY THREE HOUR FORECAST
+  //Get forecast for next 5 days
 
   async function requestFuture(location = "London", units = "Metric") {
-    const response = await fetch(
+    try {const response = await fetch(
       `https://api.openweathermap.org/data/2.5/forecast?q=${location}&units=${units}&appid=e3e5263895dd9c374cba7662f5f1dae3`,
       { mode: "cors" }
     );
@@ -513,6 +514,7 @@ const getData = (function () {
     const weatherData = await response.json();
 
     forecastContainer.innerHTML = "";
+
     for (let i = 0; i < weatherData.list.length; i++) {
       const divInstance = document.createElement("div");
       divInstance.setAttribute("id", "div-instance");
@@ -532,11 +534,11 @@ const getData = (function () {
       let icon = weatherData.list[i].weather[0].icon;
       let description = weatherData.list[i].weather[0].description;
       let temp;
-      if (units == "Metric") {
+      if (unitsBtn.textContent == "Metric") {
         temp = `${Math.round(
           weatherData.list[i].main.feels_like
         )}<span class='smallerF'>&#8451</span>`;
-      } else {
+       } else {
         temp = `${Math.round(
           weatherData.list[i].main.feels_like
         )}<span class='smallerF'>&#8457</span>`;
@@ -547,7 +549,8 @@ const getData = (function () {
         temp,
         icon,
         getData.capitalise(description)
-      );
+      );}
+    } catch {
     }
     
   }
@@ -3341,47 +3344,9 @@ function throwProtectedError(token, format, input) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "domEvents": () => (/* binding */ domEvents)
-/* harmony export */ });
-/* harmony import */ var _getdata_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
-/* harmony import */ var _domdisplay__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
-
-
-
-const domEvents = (function () {
-  const searchBtn = document.getElementById("search");
-  const searchInput = document.getElementById("search-text");
-  const unitsBtn = document.getElementById("units-btn");
-
-  searchBtn.addEventListener("click", (e) => {
-    e.preventDefault();
-    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData(searchInput.value, unitsBtn.textContent);
-  });
-
-  unitsBtn.addEventListener("click", () => {
-    if (unitsBtn.textContent == "Metric") {
-      unitsBtn.textContent = "Imperial";
-    } else {
-      unitsBtn.textContent = "Metric";
-    }
-    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData(searchInput.value, unitsBtn.textContent);
-    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestFuture(searchInput.value, unitsBtn.textContent);
-  });
-
-  _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestFuture()
-  _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData();
-})();
-
-
-/***/ }),
-/* 40 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ isToday)
 /* harmony export */ });
-/* harmony import */ var _isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(41);
+/* harmony import */ var _isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(40);
 /* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
 
 
@@ -3417,14 +3382,14 @@ function isToday(dirtyDate) {
 }
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ isSameDay)
 /* harmony export */ });
-/* harmony import */ var _startOfDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(42);
+/* harmony import */ var _startOfDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(41);
 /* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
 
 
@@ -3459,7 +3424,7 @@ function isSameDay(dirtyDateLeft, dirtyDateRight) {
 }
 
 /***/ }),
-/* 42 */
+/* 41 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -3501,15 +3466,15 @@ function startOfDay(dirtyDate) {
 }
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ isTomorrow)
 /* harmony export */ });
-/* harmony import */ var _addDays_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(44);
-/* harmony import */ var _isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(41);
+/* harmony import */ var _addDays_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(43);
+/* harmony import */ var _isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(40);
 /* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
 
 
@@ -3546,7 +3511,7 @@ function isTomorrow(dirtyDate) {
 }
 
 /***/ }),
-/* 44 */
+/* 43 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -3599,6 +3564,49 @@ function addDays(dirtyDate, dirtyAmount) {
   date.setDate(date.getDate() + amount);
   return date;
 }
+
+/***/ }),
+/* 44 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "domEvents": () => (/* binding */ domEvents)
+/* harmony export */ });
+/* harmony import */ var _getdata_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+/* harmony import */ var _domdisplay__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+
+
+
+const domEvents = (function () {
+  const searchBtn = document.getElementById("search");
+  const searchInput = document.getElementById("search-text");
+  const unitsBtn = document.getElementById("units-btn");
+  searchInput.value = 'London'
+
+  searchBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData(searchInput.value, unitsBtn.textContent);
+    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestFuture(searchInput.value, unitsBtn.textContent);
+  });
+
+  unitsBtn.addEventListener("click", () => {
+    
+
+    if (unitsBtn.textContent == "Metric") {
+      unitsBtn.textContent = "Imperial";
+    } else {
+      unitsBtn.textContent = "Metric";
+    }
+     
+    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData(searchInput.value, unitsBtn.textContent);
+    _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestFuture(searchInput.value, unitsBtn.textContent);
+  });
+
+  _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestFuture('london', 'metric')
+  _getdata_js__WEBPACK_IMPORTED_MODULE_0__.getData.requestData();
+})();
+
 
 /***/ })
 /******/ 	]);
@@ -3676,7 +3684,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _modules_domdisplay_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var _modules_getdata_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
-/* harmony import */ var _modules_domevents_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(39);
+/* harmony import */ var _modules_domevents_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(44);
 
 
 
